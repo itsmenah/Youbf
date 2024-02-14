@@ -19,6 +19,9 @@ const animationTimeline = () => {
     skewX: "15deg",
   };
 
+  const backgroundAudio = document.getElementById("backgroundAudio");
+  backgroundAudio.play();
+
   const ideaTextTransLeave = {
     opacity: 0,
     y: 20,
